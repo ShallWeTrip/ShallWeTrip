@@ -360,6 +360,7 @@ export default {
       this.removeMarker();
 
       for (var i = 0; i < places.length; i++) {
+        // console.log(places[i]);
         // 마커를 생성하고 지도에 표시합니다
         var placePosition = new kakao.maps.LatLng(places[i].y, places[i].x),
           marker = this.addMarker(placePosition, i),
@@ -372,7 +373,7 @@ export default {
         // 마커와 검색결과 항목에 mouseover 했을때
         // 해당 장소에 인포윈도우에 장소명을 표시합니다
         // mouseout 했을 때는 인포윈도우를 닫습니다
-        (function (marker, title) {
+        (function (marker, title, position, tel) {
           kakao.maps.event.addListener(marker, "mouseover", function () {
             // this.displayInfowindow(marker, title);
           });
@@ -395,8 +396,10 @@ export default {
 
           itemEl.onclick = function () {
             kakaoMap.$data.article.title = title;
+            kakaoMap.$data.article.content = "주소 : " + position + "\n";
+            kakaoMap.$data.article.content += "전화번호 : " + tel + "\n";
           };
-        })(marker, places[i].place_name);
+        })(marker, places[i].place_name, places[i].address_name, places[i].phone);
 
         fragment.appendChild(itemEl);
       }

@@ -1,5 +1,6 @@
 package com.ssafy.trip.hotplace.model.service;
 
+import java.sql.SQLException;
 import java.util.List;
 
 import org.springframework.web.multipart.MultipartFile;
@@ -17,7 +18,6 @@ public interface HotPlaceService {
 //	PageNavigation makePageNavigation(HotPlacePageBean bean) throws Exception;
 	HotPlace getArticle(int hotId) throws Exception;
 	void updateHit(int hotId) throws Exception;
-	
 	void modifyArticle(HotPlace boardDto) throws Exception;
 	void deleteArticle(int hotId) throws Exception;
 	public List<HotPlace> listArticleAll() throws Exception;

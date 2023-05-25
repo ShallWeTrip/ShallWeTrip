@@ -189,6 +189,7 @@ public class HotPlaceServiceImpl implements HotPlaceService {
 	@Override
 	public void deleteArticle(int hotId) throws Exception {
 		// TODO : BoardDaoImpl의 deleteArticle 호출
+		boardDao.deleteImage(hotId);
 		boardDao.deleteArticle(hotId);
 	}
 

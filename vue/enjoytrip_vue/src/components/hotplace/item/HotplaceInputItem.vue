@@ -77,7 +77,7 @@ export default {
   data() {
     return {
       article: {
-        // hotId: "",
+        hotId: "",
         userId: "",
         title: "",
         content: "",
@@ -169,9 +169,10 @@ export default {
         });
     },
     modifyArticle() {
+      console.log(this.article.content);
       http
         .put(`/hotplace`, {
-          // hotId: this.article.hotId,
+          hotId: this.article.hotId,
           userId: this.userInfo.userid,
           title: this.article.title,
           content: this.article.content,

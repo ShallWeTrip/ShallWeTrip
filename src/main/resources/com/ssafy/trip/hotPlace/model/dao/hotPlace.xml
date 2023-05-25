@@ -149,7 +149,13 @@
 		hotplace_board
 		where hotId = #{hotId}
 	</delete>
-
+	
+	<delete id="deleteImage" parameterType="int">
+		delete from
+		hotplace_file_info
+		where hotId = #{hotId}
+	</delete>
+	
 	<update id="updateHit" parameterType="int">
 		update hotplace_board
 		set

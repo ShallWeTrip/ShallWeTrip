@@ -9,10 +9,11 @@
       indicators
       style="text-shadow: 1px 1px 2px #333"
     >
+      <b-carousel-slide class="main-carousel" img-src="/assets/images/main4.jpg"></b-carousel-slide>
       <b-carousel-slide class="main-carousel" img-src="/assets/images/main1.png"></b-carousel-slide>
       <b-carousel-slide class="main-carousel" img-src="/assets/images/main2.png"></b-carousel-slide>
-      <b-carousel-slide class="main-carousel" img-src="/assets/images/main4.jpg"></b-carousel-slide>
       <span class="carousel-text"><string> SHALL WE TRIP? </string></span>
+      <!-- <span class="carousel-subtext">SHALL WE TRIP?</span> -->
     </b-carousel>
 
     <div class="main-content">
@@ -65,6 +66,15 @@ export default {
   transform: translate(-50%, -50%);
   color: white;
   font-size: 120px;
+}
+.carousel-subtext {
+  position: absolute;
+  font-family: "Gowun Dodum", sans-serif;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 30px;
 }
 .image-text {
   font-size: 70px;

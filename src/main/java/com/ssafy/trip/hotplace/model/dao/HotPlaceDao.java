@@ -21,6 +21,7 @@ public interface HotPlaceDao {
 	List<FileInfoDto> fileInfoList(int hotId) throws Exception;
 	void modifyArticle(HotPlace boardDto) throws SQLException;
 	void deleteArticle(int hotId) throws SQLException;
+	void deleteImage(int hotId) throws SQLException;
 	List<HotPlace> listArticleAll();
 	
 }
