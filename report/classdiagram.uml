@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/ssafy/spring-work/enjoytrip_springboot/src</OriginalElement>
+  <nodes>
+    <node x="811.8930665939195" y="877.3871426245481">com.ssafy.trip.attraction.model.dto.Attraction</node>
+    <node x="550.4114206387867" y="820.6214693137863">com.ssafy.trip.infoBoard.model.dto.BookException</node>
+    <node x="1368.7903087646314" y="444.51967458653326">com.ssafy.trip.infoBoard.controller.InfoBoardController</node>
+    <node x="350.08784914419607" y="718.3663730692526">com.ssafy.trip.attraction.model.dto.AttractionException</node>
+    <node x="1055.500033244259" y="205.6038619420159">com.ssafy.trip.hotplace.controller.HotPlaceController</node>
+    <node x="1654.4178934198108" y="537.1229536617687">com.ssafy.trip.config.SwaggerConfiguration</node>
+    <node x="1360.9018733655184" y="228.774649283418">com.ssafy.trip.attraction.model.service.AttractionService</node>
+    <node x="742.5291797846378" y="216.63474624265476">com.ssafy.trip.user.model.service.JwtServiceImpl2</node>
+    <node x="488.131015248432" y="984.425288296944">com.ssafy.trip.util.SizeConstant</node>
+    <node x="399.14349040226494" y="1369.2163398817277">com.ssafy.trip.attraction.model.dto.SearchOption</node>
+    <node x="664.5987124881406" y="1376.1851888804724">com.ssafy.trip.infoBoard.model.dto.InfoBoard</node>
+    <node x="151.21880188423074" y="262.65828891817443">com.ssafy.trip.infoBoard.controller.InfoBoardRestController</node>
+    <node x="1167.1615380087842" y="698.1289462338418">com.ssafy.trip.util.ParameterCheck</node>
+    <node x="992.1300686189338" y="114.28520444126096">com.ssafy.trip.infoBoard.model.service.InfoBoardService</node>
+    <node x="282.55196822243624" y="955.4357120585569">com.ssafy.trip.infoBoard.model.dao.InfoBoardDao</node>
+    <node x="58.306922103358716" y="921.5842597775112">com.ssafy.trip.util.PageUtility</node>
+    <node x="-149.82420059407184" y="525.9880430764969">com.ssafy.trip.hotplace.controller.FileDownloadController</node>
+    <node x="571.9223730987192" y="1609.002697970397">com.ssafy.trip.util.DBUtil</node>
+    <node x="514.7265809406981" y="34.48639920324207">com.ssafy.trip.user.model.service.JwtService</node>
+    <node x="490.72471025276593" y="225.24811123335158">com.ssafy.trip.hotplace.model.service.HotPlaceServiceImpl</node>
+    <node x="610.6779646086719" y="730.8683159543227">com.ssafy.trip.user.model.dto.UserException</node>
+    <node x="848.0690819786951" y="770.7267565833904">com.ssafy.trip.attraction.model.dao.AttractionDao</node>
+    <node x="708.7077387949657" y="99.87481777328087">com.ssafy.trip.user.model.service.UserServiceImp</node>
+    <node x="1069.6430901120552" y="788.2335855244027">com.ssafy.trip.hotplace.model.dao.HotPlaceDao</node>
+    <node x="1628.531025141297" y="697.8091975617947">com.ssafy.trip.HomeController</node>
+    <node x="1389.0959053819597" y="712.6527234386493">com.ssafy.trip.hotplace.view.FileDownLoadView.FileDownLoadView</node>
+    <node x="1296.6060563686638" y="65.48852343285108">com.ssafy.trip.infoBoard.model.service.InfoBoardServiceImpl</node>
+    <node x="427.2074398371483" y="414.1132853214609">com.ssafy.trip.hotplace.controller.HotPlaceRestController</node>
+    <node x="919.9555842647967" y="632.0883921791733">com.ssafy.trip.attraction.controller.AttractionController</node>
+    <node x="60.65691820851748" y="-14.921158692165363">com.ssafy.trip.user.model.service.JwtServiceImpl</node>
+    <node x="336.4032829707826" y="624.1547690940698">com.ssafy.trip.EnjoyTripSpringbootApplication</node>
+    <node x="1347.4018645973265" y="329.38114895849446">com.ssafy.trip.attraction.model.service.AttractionServiceImp</node>
+    <node x="150.13410146273907" y="1313.1864984797442">com.ssafy.trip.hotplace.model.dto.HotPlace</node>
+    <node x="1639.9629111426195" y="424.15294875905283">com.ssafy.trip.EnjoyTripSpringbootApplicationTests</node>
+    <node x="419.616633886463" y="1212.0204197474798">com.ssafy.trip.user.model.dao.UserDao</node>
+    <node x="94.48617839701399" y="667.7935723408308">com.ssafy.trip.hotplace.model.dto.HotPlacePageBean</node>
+    <node x="767.7984638901784" y="10.219788281549498">com.ssafy.trip.user.model.service.UserService</node>
+    <node x="719.0758391470857" y="424.24750417397007">com.ssafy.trip.user.controller.UserController</node>
+    <node x="158.85358731163637" y="486.0125475844422">com.ssafy.trip.config.WebMvcConfiguration</node>
+    <node x="372.86696729957373" y="135.86901769186457">com.ssafy.trip.hotplace.model.service.HotPlaceService</node>
+    <node x="1849.7825621432378" y="718.0960550281925">com.ssafy.trip.attraction.controller.AttractionRestController</node>
+    <node x="1059.2984825284382" y="507.4645653063163">com.ssafy.trip.exception.UnAuthorizedException</node>
+    <node x="619.8022607759436" y="1122.9315747627022">com.ssafy.trip.infoBoard.model.dto.PageBean</node>
+    <node x="375.3477460369643" y="1589.6925598703237">com.ssafy.trip.user.model.dto.User</node>
+    <node x="1315.940229189417" y="802.191738279378">com.ssafy.trip.hotplace.model.dto.FileInfoDto</node>
+    <node x="677.6699274560793" y="638.1304461470673">com.ssafy.trip.util.AttractionDBUtil</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.ssafy.trip.user.model.service.JwtServiceImpl2" target="com.ssafy.trip.user.model.service.JwtService" relationship="REALIZATION">
+      <point x="-1.7978463773715703E-4" y="-73.49974624265475" />
+      <point x="868.529" y="191.0" />
+      <point x="573.727" y="191.0" />
+      <point x="4.190593019472999E-4" y="14.499600796757925" />
+    </edge>
+    <edge source="com.ssafy.trip.user.model.service.UserServiceImp" target="com.ssafy.trip.user.model.service.UserService" relationship="REALIZATION">
+      <point x="45.09072509521272" y="-27.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.ssafy.trip.attraction.model.service.AttractionServiceImp" target="com.ssafy.trip.attraction.model.service.AttractionService" relationship="REALIZATION">
+      <point x="-0.49999123180805327" y="-27.5" />
+      <point x="0.0" y="14.499999999999986" />
+    </edge>
+    <edge source="com.ssafy.trip.infoBoard.model.service.InfoBoardServiceImpl" target="com.ssafy.trip.infoBoard.model.service.InfoBoardService" relationship="REALIZATION">
+      <point x="-98.0" y="24.29668100840988" />
+      <point x="82.0" y="0.0" />
+    </edge>
+    <edge source="com.ssafy.trip.user.model.service.JwtServiceImpl" target="com.ssafy.trip.user.model.service.JwtService" relationship="REALIZATION">
+      <point x="8.179148250064827E-5" y="73.50015869216537" />
+      <point x="186.65699999999998" y="191.0" />
+      <point x="573.727" y="191.0" />
+      <point x="4.190593019472999E-4" y="14.499600796757925" />
+    </edge>
+    <edge source="com.ssafy.trip.hotplace.model.service.HotPlaceServiceImpl" target="com.ssafy.trip.hotplace.model.service.HotPlaceService" relationship="REALIZATION">
+      <point x="-87.5" y="-50.5" />
+      <point x="46.35774295319223" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.4932279909706546" showDependencies="false" x="967.5" y="871.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
